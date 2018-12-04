@@ -1,0 +1,27 @@
+{
+  "name": "citadel_mainframe",
+  "version": "0.1.0",
+  "description": "Mainframe is an API for SWGEmu Core3 based servers, featuring user registration and account management. Built with NodeJS.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czerkacorp/mainframe.git"
+  },
+  "author": "Czerka Corporation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/czerkacorp/mainframe/issues"
+  },
+  "homepage": "https://github.com/czerkacorp/mainframe#readme",
+  "dependencies": {
+    "config": "^3.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
