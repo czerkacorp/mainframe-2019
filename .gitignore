@@ -60,5 +60,9 @@ typings/
 # next.js build output
 .next
 
-#prod config
-production.js
+#config files
+config/*.js
+!config/default.js
+
+# downloaded swgemu files
+db/swgemu/*.sql

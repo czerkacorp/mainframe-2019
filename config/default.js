@@ -13,15 +13,22 @@ Mainframe uses node-config for configuration management. If would like more info
 */
 
 module.exports = {
-  db: {
-    host: "localhost",
-    port: 3306,
-    dbname: "swgemu",
-    user: "root",
-    password: ""
+  // Mainframe configuration items
+  app: {
+    port: 3000,
   },
 
-  app: {
-    port: 3000
-  }
+  // MySQL database configuration items
+  db: {
+    host: 'localhost',
+    port: 3306,
+    dbname: 'swgemu',
+    user: 'root',
+    password: '',
+  },
+
+  // SWGEmu Server configuration items
+  swgemu: {
+    dbSecret: '',
+  },
 };
