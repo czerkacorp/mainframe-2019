@@ -1,0 +1,34 @@
+/*
+--------------------------------------------------------------------------------
+Example Mainframe Developmnent Configuration File
+Authored by: Czerka Corporation
+Website: https://czerka.io
+--------------------------------------------------------------------------------
+To utilize this file, save as [environment].js in /config folder (replace [environment] with the deployment environment, e.g. developnent, staging or production), then edit the values to match that environment. When NODE_ENV is set to your specified environment, these files will overwrite any default values specified in default.js.
+
+Only specify the values that you would like to overwrite. If you leave a value undefined or null, it will assume that is what you would like the value to be.
+
+Note: environment .js files are ignored by git so that you do not accidentally commit it to your repo. 
+--------------------------------------------------------------------------------
+*/
+
+module.exports = {
+  // Mainframe configuration items
+  app: {
+    port: 3000,
+  },
+
+  // MySQL database configuration items
+  db: {
+    host: 'localhost',
+    port: 3306,
+    dbname: 'swgemu',
+    user: 'root',
+    password: '',
+  },
+
+  // SWGEmu Server configuration items
+  swgemu: {
+    dbSecret: '',
+  },
+};
