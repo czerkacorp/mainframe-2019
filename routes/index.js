@@ -6,7 +6,7 @@ const router = express.Router();
 const apiv1Controller = require('../controllers/apiv1Controller');
 
 router.get('/', (req, res) => {
-  res.send({
+  res.status(200).send({
     title: 'Czerka Mainframe',
     body: {
       message:

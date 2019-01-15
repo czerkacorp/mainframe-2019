@@ -30,6 +30,6 @@ module.exports = {
 
   // SWGEmu Server configuration items
   swgemu: {
-    dbSecret: '',
+    dbSecret: 'swgemus3cr37!',
   },
 };
