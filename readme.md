@@ -26,7 +26,7 @@ npm install
 
 - Set Mainframe Configs
 
-  - Save development.js.example as development.js and update values for your MySQL database
+  - Save [environment].js.example as development.js and update values for your MySQL database
 
 - Start Mainframe
 
