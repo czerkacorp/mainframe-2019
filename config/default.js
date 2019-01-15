@@ -15,6 +15,7 @@ Mainframe uses node-config for configuration management. If would like more info
 module.exports = {
   // Mainframe configuration items
   app: {
+    host: 'localhost',
     port: 3000,
   },
 
