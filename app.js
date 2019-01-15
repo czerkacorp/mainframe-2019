@@ -1,5 +1,14 @@
-// Load node packages
-const config = require('config');
+/*
+--------------------------------------------------------------------------------
+Czerka Mainframe -- app.js
+Authored by: Czerka Corporation
+Website: https://czerka.io/mainframe
+--------------------------------------------------------------------------------
+App.js is the structure of our application, showing the flow of all middleware from top to bottom.
+--------------------------------------------------------------------------------
+*/
+
+// Load dependencies
 const express = require('express');
 
 // Load routes from router
@@ -17,7 +26,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-// Make loaded routes available
+// Make routes available
 app.use('/', routes);
 
 // Export app so that we can use it in start.js
