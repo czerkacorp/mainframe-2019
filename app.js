@@ -1,13 +1,11 @@
-// Set node environment
-
-//Load external node ackages
+// Load external node ackages
 const config = require('config');
 const express = require('express');
 
 //Load routes from router
 const routes = require('./routes');
 
-//Load middleware
+// Load middleware
 const app = express();
 
 // Make loaded routes available

@@ -1,3 +1,6 @@
+// Import dependencies
+const h = require('../lib/helpers');
+
 exports.home = (req, res) => {
   res.send({
     title: 'API Endpoint, woohoo',
