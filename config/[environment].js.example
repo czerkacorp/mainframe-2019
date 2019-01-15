@@ -15,6 +15,7 @@ Note: environment .js files are ignored by git so that you do not accidentally c
 module.exports = {
   // Mainframe configuration items
   app: {
+    host: 'localhost',
     port: 3000,
   },
 
