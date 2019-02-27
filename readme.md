@@ -31,7 +31,7 @@ npm install
 - Start Mainframe
 
 ```bash
-npm start
+npm run dev
 ```
 
 ## Contributing

@@ -1,12 +1,12 @@
 /*
 --------------------------------------------------------------------------------
-Example Mainframe Developmnent Configuration File
+Czerka Mainframe -- config/[environment].js.example (Example Configuration File)
 Authored by: Czerka Corporation
-Website: https://czerka.io
+Website: https://czerka.io/mainframe
 --------------------------------------------------------------------------------
 To utilize this file, save as [environment].js in /config folder (replace [environment] with the deployment environment, e.g. developnent, staging or production), then edit the values to match that environment. When NODE_ENV is set to your specified environment, these files will overwrite any default values specified in default.js.
 
-Only specify the values that you would like to overwrite. If you leave a value undefined or null, it will assume that is what you would like the value to be.
+Only specify the values that you would like to overwrite. Delete anything that you do not want to change from the defaults. If you leave a value as undefined or null, Mainframe will assume that is what you would like the value to be. If you remove an item, Mainframe will fall back to anything in default.js
 
 Note: environment .js files are ignored by git so that you do not accidentally commit it to your repo. 
 --------------------------------------------------------------------------------

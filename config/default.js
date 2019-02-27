@@ -1,10 +1,10 @@
 /*
 --------------------------------------------------------------------------------
-Mainframe Default Configuration File
+Czerka Mainframe -- config/default.js (Default Configuration File)
 Authored by: Czerka Corporation
-Website: https://czerka.io
+Website: https://czerka.io/mainframe
 --------------------------------------------------------------------------------
-This is the default configuration for Mainframe. If there no other config files have been created or if a value is not specified in the other config file, the below will be used.
+This is the default configuration for Mainframe. If no other config files have been created or if a value is not specified in the other config file, the below will be used.
 
 This file is updated regularly and is set to be tracked by git, so we recommend creating a config file based on the environment you are running in, i.e. "production.js"
 
