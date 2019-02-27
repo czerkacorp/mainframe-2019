@@ -10,12 +10,17 @@ App.js is the structure of our application, showing the flow of all middleware f
 
 // Load dependencies
 const express = require('express');
+const bodyParser = require('body-parser');
 
 // Load routes from router
 const routes = require('./routes');
 
-// Load middleware
+// Instantiate express application
 const app = express();
+
+// Load middleware
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 // Change default headers
 app.use(function(req, res, next) {

@@ -32,6 +32,6 @@ router.get('/', (req, res) => {
   });
 });
 
-router.use('/api/v1', apiv1Controller.home);
+router.get('/api/v1', apiv1Controller.home);
 
 module.exports = router;
