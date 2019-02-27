@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon start.js",
-    "import": "node ./lib/import.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "import": "node ./lib/import.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +20,7 @@
   "dependencies": {
     "config": "^3.0.0",
     "express": "^4.16.4",
-    "mysql2": "^1.6.4",
-    "sequelize": "^4.42.0"
+    "mysql2": "^1.6.4"
   },
   "devDependencies": {
     "nodemon": "^1.18.7"
