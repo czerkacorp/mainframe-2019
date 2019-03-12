@@ -66,3 +66,6 @@ config/*.js
 
 # downloaded swgemu files
 db/swgemu/*.sql
+
+# DS_STORE
+.DS_STORE
